@@ -142,3 +142,217 @@ body {
         padding-top: 20px;
     }
 }
+.rest-of-content {
+    display: flex;
+    padding-top: 40px;
+    gap: 20px;
+}
+@media (max-width: 767px) {
+    .rest-of-content {
+        flex-direction: column-reverse;
+    }
+}
+.rest-of-content .section2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    order: 2;
+    flex: 1;
+    margin-right: 40px;
+    padding-bottom: 40px;
+}
+@media (max-width: 767px) {
+    .rest-of-content .section2 {
+        max-width: calc(100% - 40px);
+        margin: 0 20px;
+        margin-right: 0;
+    }
+}
+.rest-of-content .section2 .part1 h2{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.rest-of-content .section2 .part1 .skills .skill1{
+    margin-bottom: 10px;
+}
+.rest-of-content .section2 .part1 .skills .skill1 p{
+    color: #747474;
+}
+.rest-of-content .section2 .part1 .skills .skill1 .progress1{
+    width: calc(100);
+    height: 20px;
+    background-color: #3b3b3b;
+    position: relative;
+}
+.rest-of-content .section2 .part1 .skills .skill1 .progress1::before{
+    content: "95%";
+    width: 95%;
+    height: 100%;
+    text-align: end;
+    background-color: #2a7aaf;
+    color: white;
+    position: absolute;
+}
+.rest-of-content .section2 .part1 .skills .skill2{
+    margin-bottom: 10px;
+}
+.rest-of-content .section2 .part1 .skills .skill2 p{
+    color: #747474;
+}
+.rest-of-content .section2 .part1 .skills .skill2 .progress2{
+    width: calc(100);
+    height: 20px;
+    background-color: #3b3b3b;
+    position: relative;
+}
+.rest-of-content .section2 .part1 .skills .skill2 .progress2::before{
+    content: "80%";
+    width: 80%;
+    height: 100%;
+    text-align: end;
+    background-color: #45a6c8;
+    color: white;
+    position: absolute;
+}
+.rest-of-content .section2 .part1 .skills .skill3{
+    margin-bottom: 10px;
+}
+.rest-of-content .section2 .part1 .skills .skill3 p{
+    color: #747474;
+}
+.rest-of-content .section2 .part1 .skills .skill3 .progress3{
+    width: calc(100);
+    height: 20px;
+    background-color: #3b3b3b;
+    position: relative;
+}
+.rest-of-content .section2 .part1 .skills .skill3 .progress3::before{
+    content: "40%";
+    width: 40%;
+    height: 100%;
+    text-align: end;
+    background-color: #68a52c;
+    color: white;
+    position: absolute;
+}
+.rest-of-content .section2 .part1 .skills .skill4{
+    margin-bottom: 10px;
+}
+.rest-of-content .section2 .part1 .skills .skill4 p{
+    color: #747474;
+}
+.rest-of-content .section2 .part1 .skills .skill4 .progress4{
+    width: calc(100);
+    height: 20px;
+    background-color: #3b3b3b;
+    position: relative;
+}
+.rest-of-content .section2 .part1 .skills .skill4 .progress4::before{
+    content: "25%";
+    width: 25%;
+    height: 100%;
+    text-align: end;
+    background-color: #ffbb30;
+    color: white;
+    position: absolute;
+}
+.rest-of-content .section2 .part1 .skills .skill5{
+    margin-bottom: 10px;
+}
+.rest-of-content .section2 .part1 .skills .skill5 p{
+    color: #747474;
+}
+.rest-of-content .section2 .part1 .skills .skill5 .progress5{
+    width: calc(100);
+    height: 20px;
+    background-color: #3b3b3b;
+    position: relative;
+}
+.rest-of-content .section2 .part1 .skills .skill5 .progress5::before{
+    content: "10%";
+    width: 10%;
+    height: 100%;
+    text-align: end;
+    background-color: #ed2d00;
+    color: white;
+    position: absolute;
+}
+.rest-of-content .section2 .part2 h2{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.rest-of-content .section2 .part2 .languages{
+    display: flex;
+    flex-direction: column;
+}
+.rest-of-content .section2 .part2 .languages .lang1{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+.rest-of-content .section2 .part2 .languages .lang1 p{
+    width: 100px;
+    color: #747474;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+.rest-of-content .section2 .part2 .languages .lang1 .levels {
+    display: flex;
+    gap: 10px;
+}
+.rest-of-content .section2 .part2 .languages .lang1 .levels .level1,
+.rest-of-content .section2 .part2 .languages .lang1 .levels .level2,
+.rest-of-content .section2 .part2 .languages .lang1 .levels .level3,
+.rest-of-content .section2 .part2 .languages .lang1 .levels .level4,
+.rest-of-content .section2 .part2 .languages .lang1 .levels .level5{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #3b3b3b;
+    background-color: #232323;
+}
+.rest-of-content .section2 .part2 .languages .lang1 .levels .active-blue{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #45a6c8;
+    background-color: #45a6c8;
+}
+.rest-of-content .section2 .part2 .languages .lang2{
+    display: flex;
+    gap: 30px;
+}
+.rest-of-content .section2 .part2 .languages .lang2 p{
+    width: 100px;
+    color: #747474;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+.rest-of-content .section2 .part2 .languages .lang2 .levels {
+    display: flex;
+    gap: 10px;
+}
+.rest-of-content .section2 .part2 .languages .lang2 .levels .level1,
+.rest-of-content .section2 .part2 .languages .lang2 .levels .level2,
+.rest-of-content .section2 .part2 .languages .lang2 .levels .level3,
+.rest-of-content .section2 .part2 .languages .lang2 .levels .level4,
+.rest-of-content .section2 .part2 .languages .lang2 .levels .level5{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #3b3b3b;
+    background-color: #232323;
+}
+.rest-of-content .section2 .part2 .languages .lang2 .levels .active-green{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #68a52c;
+    background-color: #68a52c;
+}
+.rest-of-content .section3{
+    flex: 2;
+}
